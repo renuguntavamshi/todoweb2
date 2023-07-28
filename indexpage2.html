@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> 
+    <title>Project2</title>
+    <style>
+      
+        #absolute{
+            width: 300px;
+            height: 200px;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top:30%;
+            left:40%;
+            z-index:1;
+            padding:10px;
+            border:1px solid rgb(187, 185, 185);
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgb(134, 132, 132);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tasks <span class="blue"> List</span></h1>
+    <h3 class="addnewtask" style="float: right;margin: 15px 35px 0px 0px;">
+         <a href="indexpage2.html"><img src="plus.png" width="20px" height="20px" ></a>  Add New Task</h3><br><br><br>
+    <div class="card-container" style="filter:blur(1px) brightness(1);          ">
+        <div class="cards">
+            <h3>Trip To Paris</h3>
+
+            <hr >
+            <br>
+            <form>
+                <input type="checkbox" id="visitchurch" checked>
+                <label for="visitchurch"><del>visitChurch</del></label><br>
+                <input type="checkbox" id="shopping" unchecked >
+                <label for="shopping" style="color: rgb(90, 87, 87);">shopping</label><br>
+            </form>
+        </div>
+        <div class="cards">
+            <h3>My To Do List</h3>
+
+            <hr >
+            <br>
+            <form>
+                <input type="checkbox" id="visitchurch" checked>
+                <label for="visitchurch"><del>visitSupermarket</del></label><br>
+                <input type="checkbox" id="shopping" unchecked >
+                <label for="shopping" style="color: rgb(90, 87, 87);">Buy Vegetables</label><br>
+            </form>
+        </div>
+        <div class="cards">
+            <h3>Movies I watch</h3>
+
+            <hr >
+            <br>
+            <form>
+                <input type="checkbox" id="visitchurch" checked>
+                <label for="visitchurch"><del>Strange things</del></label><br>
+                <input type="checkbox" id="shopping" unchecked >
+                <label for="shopping" style="color:rgb(90, 87, 87);">Avengers</label><br>
+            </form>
+        </div>
+        <div class="cards">
+            <h3>Daily Morning Routine for Day</h3>
+
+            <hr >
+            <br>
+            <form>
+                <input type="checkbox" id="visitchurch" checked>
+                <label for="visitchurch"><del>Wakeup at 6 AM</del></label><br>
+                <input type="checkbox" id="shopping" unchecked >
+                <label for="shopping" style="color: rgb(90, 87, 87);">sleep at 10px</label><br>
+            </form>
+        </div>
+        <div class="cards">
+            <h3>Books to Read</h3>
+
+            <hr >
+            <br>
+            <form>
+                <input type="checkbox" id="visitchurch" checked>
+                <label for="visitchurch"><del>Design of Everyday</del></label><br>
+                <input type="checkbox" id="shopping" unchecked >
+                <label for="shopping" style="color: rgb(90, 87, 87);">Alchemist</label><br>
+            </form>
+        </div>
+        </div><!--card-container-->
+        <div id="absolute" >
+            <div>
+                <h3>Add new Tasks <p style="float:right;color: black;">
+ 
+ 
+          <a href="./index.html" style="color: #00A5EC;">          <i class="fa fa-times" aria-hidden="true"></i></a></p></h3>
+    
+                <br><br><br><br>    
+                <form>
+                    <input type="text"  style="width: 100%;height:20px; background-color: rgb(229, 225, 225);border:none" placeholder="Learn C++">
+                    <br>
+                    <button style="background-color: #00A5EC;color:white;border:none;padding:10px;float: right;">Add new Task</button>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
